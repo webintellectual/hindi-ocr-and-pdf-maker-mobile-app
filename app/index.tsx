@@ -57,7 +57,9 @@ export default function Index() {
           style={{
             width: 300,
             height: 300,
+            // backgroundColor: 'red',
           }}
+          resizeMode="cover" 
           // Find more Lottie files at https://lottiefiles.com/featured
           source={require('../assets/animations/docScan.json')}
         />
